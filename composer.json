@@ -1,0 +1,32 @@
+{
+  "name": "thepenser/tovacinado",
+  "description": "Cadastre-se no site Tô Vacinado.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Total Player",
+      "email": "thepenser@gmail.com",
+      "role": "Developer",
+      "homepage": "https://tovacinado.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "v6.5.*",
+    "php": "^7.4",
+    "ext-pdo": "*",
+    "coffeecode/router": "1.0.*",
+    "league/plates": "4.0.0-alpha"
+  }
+}
