@@ -1,7 +1,7 @@
 <?php
 
 define("URL_BASE", "https://tovacinado.com.br");
-//define("URL_BASE", "http://localhost/tovacinado");
+/*define("URL_BASE", "http://localhost/tovacinado");*/
 define("SITE_TITLE", "Programa de Cadastro Tô Vacinado");
 define("ID_ENTIDADE", "2");
 define("WHATSAPP", "11988219026");
